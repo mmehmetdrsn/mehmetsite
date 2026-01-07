@@ -1,0 +1,298 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(arka\ logo_1.png);
+}
+#sayfa{
+   width: 1000px;
+   background-color: #1b0202;
+    border: 2px solid black;
+    margin: auto;
+    box-shadow: 0px 16px 16px;
+}
+header{
+    height: 200px;
+    background-color: gold;
+}
+header img{
+    float: left;
+    padding: 25px;
+    width: 200px;
+}
+header h1,h2{
+        padding-left: 100px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header h1{
+    padding-top: 60px;
+}
+nav{
+    margin-top: 0px;
+    display: block;
+    clear: both;
+    background-color: rgb(18, 28, 28);
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    padding: 16px;
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+ 
+}
+nav ul li a:hover{
+    background-color: #26008d;
+}
+article{
+    background-color:bisque;
+    padding: 50px 40px;
+}
+img.solresim{
+    width: 400px;
+    float: right;
+    margin: 20px;
+    border: 1px solid black;
+}
+article p{
+    font-size: 1.2em;
+    line-height: 2em;
+    text-align: justify;
+    margin-bottom: 30px;
+    text-indent: 50px;
+}
+article ul{
+    margin: 20px 30px;
+}
+article li{
+        font-size: 1.2em;
+    line-height: 1.5em;
+}
+article h2{
+    font-size: 2em;
+    margin: 20px 0px;
+}
+footer{ height: 200px;
+background-color:#333 ;
+padding: 10px;
+color: white;
+}
+footer #sutun1{
+    width: 70%;
+    float: left;
+}
+footer #sutun1 img{
+    width: 150px;
+    float: left;
+    padding-top: 20px ;
+    margin-right: 30px;
+}
+footer #sutun1 p{
+    margin-top: 50px;
+    
+}
+footer #sutun2{
+width: 25%;
+text-align: left;
+float:right;
+}
+footer #sutun2 ul{
+list-style-type: georgian;
+}
+footer #sutun2 ul li{
+    line-height: 2em;
+    border-bottom: 1px dashed white;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: bisque;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.personel-alanı{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0px;
+    width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.personel-kart{
+    
+    flex: 0 1 270px;
+    background-color: #f9f9f9;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    width: 230px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3 ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.hoca-resim img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    outline: 1px solid #e2e9f0;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.active-card{
+    background-color: #ffb400 !important;
+    border-color: #ffb400;
+    box-shadow: 0 6px 16px rgba(255,180,0,0.3);
+}
+.hoca-bilgi h4 {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+.hoca-bilgi h3 {
+    color: #333;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: center; 
+    text-transform: capitalize; 
+}
+
+.hoca-bilgi p {
+    color: #888;
+    font-size: 0.9em;
+    text-align: center; 
+    margin: 0 auto;
+    line-height: 1.2; 
+    text-indent: 0; 
+}
+.personel-kart:hover .hoca-bilgi h3, 
+.personel-kart:hover .hoca-bilgi h4, 
+.personel-kart:hover .hoca-bilgi p {
+    color: white !important;
+}
+.personel-kart:hover , .active-card{
+    background-color: #ffb400;
+    transform: translateY(-10px);
+    border-color: #ffb400;
+}
+.personelk:hover h3, .personel-kart:hover h4, .personel-kart:hover p .active-card h3 , .active-card h4, .active-card p{
+    color: fff;
+}
+.iletisim{
+    float: left;
+    text-align: left;
+}
+.iletisim ul{
+    list-style-type: none;
+}
+.iletisim ul li{
+    line-height: 1.5em;
+    border-bottom: 1px dashed white;
+}
+.duyurular{
+    text-align: center;
+}
+.duyurularp{
+    border-bottom: 1px solid rgb(27, 0, 200);
+    text-align: center;
+}
+.duyurulara:hover{
+    text-decoration: none;
+}
+.duyurulara{
+    color: #341414;
+}
+.karda{
+    text-decoration: none;
+    color: #666;
+}
+.akademik{
+    border-collapse: collapse;
+    width: 100%;
+}
+table,th,td{
+    border:1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.dilekce a{
+    text-decoration: none;
+    color: #26008d;
+}
+table a{
+    color: #341414;
+}
+.fa {
+    margin-right: 10px;
+}
+.fa-caret-down {
+    margin-left: 5px;
+    margin-right: 0; 
+}
